@@ -1,0 +1,28 @@
+{
+  "name": "rogersineb/phptips001",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rogerio C. Conceição",
+      "email": "searcherba@gmail.com.com",
+      "role": "Developer",
+      "homepage": "https://github.com/rogersineb"
+    }
+  ],
+  "config" : {
+  "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "6.0.*"
+  }
+}
